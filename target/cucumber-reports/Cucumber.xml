@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="5.206" tests="5" skipped="0" failures="0" errors="0">
-<testcase classname="End to End Test of the GoRest API" name="Validate POST API status code and ID" time="2.996">
+<testsuite name="Cucumber" time="6.008" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="End to End Test of the GoRest API" name="Validate POST API status code and ID" time="3.975">
 <system-out><![CDATA[
 Given I hit the url of POST API endpoint....................................passed
 When I pass the POST url in the request with token..........................passed
@@ -9,7 +9,7 @@ And I receive the response code as 201......................................pass
 Then I receive the response body with ID....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="End to End Test of the GoRest API" name="Validate GET API status code and response body" time="0.552">
+<testcase classname="End to End Test of the GoRest API" name="Validate GET API status code and response body" time="0.381">
 <system-out><![CDATA[
 Given I hit the url of the GET API endpoint.................................passed
 When I pass the GET url in the request with ID and token....................passed
@@ -17,7 +17,7 @@ And I receive the response code as 200......................................pass
 Then I receive the response body with the response..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="End to End Test of the GoRest API" name="Validate PUT API status code and response body" time="0.499">
+<testcase classname="End to End Test of the GoRest API" name="Validate PUT API status code and response body" time="0.505">
 <system-out><![CDATA[
 Given I hit the url of the PUT API endpoint.................................passed
 When I pass the PUT url in the request with ID and token....................passed
@@ -26,7 +26,7 @@ And I receive the response code as 200......................................pass
 Then I receive the response body with updated details.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="End to End Test of the GoRest API" name="Validate GET API status code and response body" time="0.48">
+<testcase classname="End to End Test of the GoRest API" name="Validate GET API status code and response body" time="0.464">
 <system-out><![CDATA[
 Given I hit the url of the GET API endpoint.................................passed
 When I pass the GET url in the request with ID and token....................passed
@@ -34,7 +34,7 @@ And I receive the response code as 200......................................pass
 Then I receive the response body with updated details.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="End to End Test of the GoRest API" name="Validate DELETE API status code and response body" time="0.507">
+<testcase classname="End to End Test of the GoRest API" name="Validate DELETE API status code and response body" time="0.472">
 <system-out><![CDATA[
 Given I hit the url of the DELETE API endpoint..............................passed
 When I pass the DELETE url in the request with ID and token.................passed

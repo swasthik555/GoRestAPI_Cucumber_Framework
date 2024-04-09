@@ -11,8 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 					plugin = {"pretty", "html:target/cucumber-reports/reports.html",
 							"pretty","json:target/cucumber-reports/Cucumber.json",
 							"pretty","junit:target/cucumber-reports/Cucumber.xml",
-							"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-					tags="@test")
+							"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+					)
 
 public class Runner {
 
